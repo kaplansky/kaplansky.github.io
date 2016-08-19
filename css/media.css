@@ -2,9 +2,7 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1600px){
-	.vertical_line {
-		left: 515px;
-	}
+
 }
 
 @media only screen and (max-width : 1280px){
@@ -13,6 +11,7 @@
     font-size: 38px;
     line-height: 38px;
     margin-top: -10px;
+    margin-right: 5%
   }
 
   .blog_content {
@@ -23,9 +22,6 @@
   	margin-left: 44px;
   }
 
-  .vertical_line{
-		left: 335px;
-  }
 
   .tab_item_about {
   	width: 900px
@@ -33,9 +29,7 @@
 }
 
 @media only screen and (max-width : 1024px) {
-	.vertical_line {
-		left: 330px;
-	}
+
 }
 
 /* Medium Devices, Desktops */
@@ -44,12 +38,9 @@
 		//margin: 0;
 	//}
 
-	.vertical_line {
-		left: 300px;
-	}
 
 	.nav_bar {
-		margin-right: 150px;
+		margin-right: -5%
 	}
 
 	.nav_bar .tab {
@@ -57,8 +48,8 @@
 	}
 
 	.horizont_line {
-		margin-left: 30px;
-		width: 90%;
+		margin-left: 5%;
+		width: 100%;
 	}
 
 	.tab_item_about {
@@ -88,13 +79,38 @@
   .portf_descr {
   	padding-left: 20px;
   }
+
+  .vertical_line {
+  	left: 41%;
+  }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+
+
+	footer {
+		padding-left: 0;
+	}
+	.horizont_line {
+    margin-left: 6.5%;
+    width: 86%;
+	}
+
+	header {
+		padding-top: 60px;
+		padding-bottom: 5px;
+		height: 100%;
+	}
 	
+	.vertical_line {
+		display: none;
+	}
+
 	.nav_bar {
-		margin-right: 110px;
+		margin-right: 10%;
+		margin-bottom: 5px;
+    margin-top: 5px
 	}
 
 	.nav_bar .tab {
@@ -107,38 +123,43 @@
 	}
 
 	.logo {
-		font-size: 38px;
+		font-size: 45px;
 	}
 
 	.logo_descr {
-		font-size: 16px;
+		font-size: 24px;
+		padding: 4px 0px 0px 23px;
 	}
 
 	.tab_item_about {
 		font-size: 15px;
 	}
 
-	.vertical_line {
-		left: 265px;
-	}
 
 	.soc_button ul {
 		padding: 0px 0px 0px 70px;
 	}
 
 	.tab_item_about {
-		padding-left: 285px;
-		font-size: 14px;
-		width: 700px;
+		padding: 0 10px;
+		font-size: 18px;
+		width: auto;
 	}
 
-	.point_full {
+	.point_full, .point_null {
 		border-radius: 20px;
-		width: 21px;
+		width: 25px;
 	}
 
 	.tab_item_web {
-		margin-left: 285px;
+		width: auto;
+    text-align: center;
+    padding-left: 34px;
+    margin-left: 0;
+	}
+
+	.tab_item_web span {
+		padding-right: 10%;
 	}
 
 	.portf {
@@ -170,9 +191,6 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.vertical_line {
-		display: none;
-	}
 
 	.tab_item_about {
 		padding-left: 5px;

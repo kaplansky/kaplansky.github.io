@@ -82,7 +82,7 @@ header {
   height: 95%;
   border: 1px solid #fff;
   position: absolute;
-  left: 390px;
+  left: 29%;
   margin-top: 35px;
   transition: width 1s;
 }
@@ -124,6 +124,10 @@ header {
 
 .tab_item_about p {
 	padding-bottom: 20px;
+}
+
+.tab_item_about li {
+	margin-bottom: 2px;
 }
 
 .point_full {

@@ -20,12 +20,6 @@ $(document).ready(function() {
 	//Документация: http://digitalbush.com/projects/masked-input-plugin/
 	//$("#date").mask("99/99/9999", {placeholder : "mm/dd/yyyy"});
 
-	//Таймер обратного отсчета
-	//Документация: http://keith-wood.name/countdown.html
-	//<div class="countdown" date-time="2015-01-07"></div>
-	var austDay = new Date($(".countdown").attr("date-time"));
-	$(".countdown").countdown({until: austDay, format: 'yowdHMS'});
-
 	//Попап менеджер FancyBox
 	//Документация: http://fancybox.net/howto
 	//<a class="fancybox"><img src="image.jpg" /></a>
@@ -34,13 +28,6 @@ $(document).ready(function() {
 
 
 
-	//Скролл до id, указанного в hash URL
-	var elem = window.location.hash;
-	if(elem) {
-		$.scrollTo(elem, 800, {
-			offset: -90
-		});
-	};
 
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/
