@@ -1,15 +1,10 @@
 $(document).ready(function() {
-
-
 	//Цели для Яндекс.Метрики и Google Analytics
 	$(".count_element").on("click", (function() {
 		ga("send", "event", "goal", "goal");
 		yaCounterXXXXXXXX.reachGoal("goal");
 		return true;
 	}));
-
-
-
 	//equalheight - одинаковая высота колонок
 	//Пример списка элементов:
 	//var eqElement = ".cat_container > div, .home_news > div"
@@ -25,10 +20,6 @@ $(document).ready(function() {
 	//<a class="fancybox"><img src="image.jpg" /></a>
 	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
 	$(".fancybox").fancybox();
-
-
-
-
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/
 	$("form").submit(function() {
@@ -44,7 +35,7 @@ $(document).ready(function() {
 		});
 		return false;
 	});
-
+	
 	$(".tab_item").not(":first").hide();
 	$(".wrapper .tab").click(function() {
 		$(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
@@ -60,9 +51,6 @@ $(document).ready(function() {
 
 	$(".popup").magnificPopup({type:"image"});
 	$(".popup_content").magnificPopup({type:"inline", midClick:"true"});
-
-
-
 });
 
 // Адаптивные скрипты, которые срабатывают только при определенном разрешении экрана
@@ -84,7 +72,6 @@ $(document).ready(function() {
 		});
 	});
 })(jQuery, document, window, ResponsiveBootstrapToolkit);
-
 
 $(window).load(function() {
   $(".loader_inner").delay(600).fadeOut();
