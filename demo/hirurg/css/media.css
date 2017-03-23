@@ -1,0 +1,384 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.face-normal {
+		left: 55%;
+	}
+	.face-xray {
+		left: 55.9%;
+	}
+
+	.sec3-text-about {
+		width: 100%;
+		height: 100%;
+	}
+
+	.sec3-icon {
+    margin-top: 200px;
+	}
+
+	.sec4 {
+		height: auto;
+	}
+
+	.sec4 .text-about {
+	width: auto;
+	} 
+
+	.number-text {
+		text-align: center;
+		margin-top: 20px;
+    margin-bottom: 20px;
+	}
+
+	.sec4-mid {
+		display: inline-block;
+	}
+
+	.sec4 .number {
+		margin: 0 auto;
+	}
+	
+	.sec4-text p {
+		width: auto;
+	}
+
+	.arrows {
+		padding-left: 5%;
+	}
+
+	.map {
+		left: 43.7%;
+	}
+}
+
+@media only screen and (max-width : 1000px) {
+	.face-normal {
+		left: 65%;
+	}
+	.face-xray {
+		left: 66.4%;
+	}
+
+	.right-img {
+		display: none;
+	}
+
+	h1.descr-sec6 {
+		width: auto;
+	}
+
+	.sec7-map {
+		top: none;
+		right: none;
+	}
+
+	.map {
+		display: none;
+	}
+
+	.sec7-text h1 {
+		font-size: 33px;
+	}
+
+	.arrows {
+		display: none;
+	} 
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.face-normal, .face-xray {
+		display: none;
+	}
+
+	.logo-title {
+		width: auto;
+		font-size: 100px;
+    text-align: center;
+    margin-top: 60px;
+	}
+
+	.header-form {
+		width: auto;
+		height: auto;
+		padding: 25px 0px 15px
+	}
+
+	.text-about {
+		width: auto;
+		height: auto;
+	}
+
+	.sec-1 h2 {
+		width: auto;
+	}
+	
+	header {
+		height: 700px
+	}
+
+	h1.descr-sec1 {
+		font-size: 40px;
+		margin-top: 20px;
+	}
+
+	.text-about {
+		margin-top: 5px;
+	}
+
+	.sec-form {
+		width: auto;
+		height: auto;
+	}
+
+	.sec-form h2 {
+		font-size: 35px;
+		line-height: 35px;
+	}
+
+	.sec-form span {
+		width: auto;
+	}
+
+	.sec-form input {
+		width: 215px;
+	}
+
+	.sec3-descr {
+    width: 100%;
+    text-align: center;
+	}
+
+	.sec3-descr h1 {
+		font-size: 40px;
+	}
+
+	.sec3-text-about {
+		width: 90%;
+	 	margin: 30px 30px;
+	}
+
+	.sec3-item {
+		height: auto;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+	}
+
+	.sec4-text p {
+		width: auto;
+		text-align: center;
+	}
+
+	.sec4-icon {
+		margin: 0 auto;
+	}
+
+	.sec4-text h3 {
+		text-align: center;
+		padding-left: 26px;
+	}
+
+	.sec4-text-icon {
+		margin-top: 40px;
+	}
+
+	.sec5 {
+		height: auto;
+		background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 0 0;
+    background-image: url(../img/section3-xs.png)
+	}
+
+	.sec5-item span {
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+	.sec7-map {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	.sec6 {
+		padding: 0;
+	}
+
+	h1.descr-sec6 {
+		font-size: 30px;
+	}
+
+	.sec6 span {
+		font-size: 25px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+	.name {
+		font-size: 30px;
+	}	
+
+	.phone {
+		margin-left: 10px;
+	}
+
+	.logo-title {
+		font-size: 65px;
+		margin-top: 40px;
+	}
+
+	.header-form span {
+		font-size: 25px;
+	}
+		
+	input {
+		width: 260px;
+    height: 50px;
+	}
+
+	 .header-form input:nth-child(1){
+		margin-left: 0px;
+		margin-bottom: 10px;
+	}
+	
+	h1.descr-sec1 {
+		font-size: 25px;
+		line-height: 30px;
+		margin-top: 15px;
+	}
+
+	.sec-1 h2 {
+		margin-top: 25px;
+		margin-left: -10px;
+	}
+
+	.sec-1 li {
+		margin-bottom: 10px;
+	}
+
+	.sec-form h2 {
+		font-size: 35px;
+    line-height: 35px;
+	}
+
+	.sec-form span {
+		font-size: 24px;
+	}
+	
+	.sec2 br {
+		display: none;
+	}
+
+	.sec-form input {
+		margin-bottom: 10px;
+		width: 260px;
+	}
+
+	.sec-form button {
+		width: 260px;
+		height: 50px;
+	}
+	
+	.sec3-descr span {
+		line-height: 30px;
+	}
+
+	.sec3-text-about {
+		margin: 30px 16px;   
+		padding: 6px 28px;
+		width: 90%;
+	}
+
+	.sec3-text-about p {
+		line-height: 30px
+	}
+
+	.sec3-item span {
+		width: auto;
+	}
+
+	.sec4-mid {
+		display: block;
+		margin-bottom: 40px;
+	}
+
+	.sec4-mid span {
+		font-size: 35px;
+	}
+
+	.sec4 .text-about {
+		margin-left: 0;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
