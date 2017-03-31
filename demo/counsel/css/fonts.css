@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "MonserratBold";
+	scr: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+	font-family: "MonserratRegular";
+	scr: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Seguiemj";
+	scr: url(../fonts/seguiemj/seguiemj.ttf);
+}
+
+@font-face {
+	font-family: "MyriadProRegular";
+	scr: url(../fonts/MyriadPro/MyriadPro-Regular.otf);
+}
