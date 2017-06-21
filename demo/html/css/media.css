@@ -1,0 +1,277 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	.main_menu ul {
+		text-transform: uppercase;
+		font-size: 18px;
+		float: right;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+	.text_composition {
+		max-width: 270px
+	}
+
+	.image img {
+		width: 230px;
+		height: 265px;
+	}
+	
+	.container {
+		max-width: 640px;
+		padding: 0;
+	}
+
+	.text-block_three {
+		border-right: 16px solid #bbaac3;
+	}
+
+	.text {
+		padding-bottom: 30px;
+	}
+
+	.text_composition {
+		margin-left: 80px;
+	}
+	
+	.text-block_four {
+		bottom: 20px;
+	}
+
+	.services li a  {
+		font-size: 18px;
+	}
+
+
+	.review_block_one {
+		border-right: 33px solid #cfc3d4;
+	}
+
+	.review_block_two {
+		border-right: 7px solid #490766;
+		right: 33px;
+	}
+
+	.review_block_three {
+		border-right: 28px solid #da7100;
+		right: 40px;
+	}
+
+	.review_block_six {
+		display: block;
+	}
+
+	
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+	.main_menu {
+		float: right;
+		margin-right: 10px;
+	}
+
+	.home {
+		margin: 0;
+	}
+
+	.image {
+		display: none;
+	}
+
+	.text-block_five {
+		display: block;
+
+	}
+
+	.text_block_one {
+		left: 95px;
+	}
+
+	.text-block_two {
+		left: 120px;
+	}
+
+	.text-block_three {
+		left: 124px;
+	}
+
+	.text-block_four {
+		left: 30%;
+		width: 70%;
+	}
+
+	.text_composition {
+		margin-left: 155px;
+		max-width: 100%;
+	}
+
+	.text {
+		padding-right: 10px;
+	}
+
+	.text_composition p {
+		text-align: left;
+	}
+
+	.text-block_four {
+    left: 20%;
+    width: 80%;
+	}
+
+	.services {
+		padding-left: 10px;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	.carousel {
+		border: 12px solid #da7100;
+		width: 280px;
+		height: 200px;
+	}
+
+	.carousel-inner img {
+		width: 180px;
+		margin: 0 auto;
+	}
+
+	.arr-left {
+		top: 50px;
+    left: 10px;
+	}
+
+	.arr-right {
+		top: 50px;
+    right: 10px;
+	}
+
+	.review_block_three, .review_block_six {
+		display: none;
+	}
+
+	.review_block_two {
+		height: 100%;
+	}
+	
+	}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.text_composition p.small-width {
+		display: block;
+	}
+
+	.text_composition p.large-width {
+		display: none;
+	}
+
+	.text-block_four {
+    left: 32%;
+    width: 68%;
+	}
+
+	.services li a {
+	font-size: 10px;
+	}
+
+.services li{
+	padding-bottom: 12px;
+	}
+
+.carousel {
+		border: 9px solid #da7100;
+		width: 205px;
+		height: 145px;
+	}
+
+.carousel-inner img {
+	width: 130px;
+	margin: 0 auto;
+}
+
+.carousel-inner .item {
+	margin-top: 8px;
+}
+
+.arr-left {
+	width: 13px;
+	height: 55px;
+	top: 40px;
+  left: 10px;
+  background-image: url(../img/arr-right-small.png);
+}
+
+.arr-right {
+	width: 13px;
+	height: 55px;
+	top: 40px;
+  right: 10px;
+  background-image: url(../img/arr-left-small.png);
+}
+
+.review_block_four, .review_block_five {
+	display: none;
+}
+
+.review_block_two {
+	right: 0;
+	border-right: 8px solid #490766;
+}
+
+.review_block_one {
+	right: 8px;
+	border-right: 12px solid #cfc3d4;
+	height: 98%;
+	top: 2%;
+	}
+	
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
