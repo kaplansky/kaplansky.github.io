@@ -1,0 +1,369 @@
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1;
+	font-family: "Calibri Regular", sans-serif;
+	overflow-x: hidden;
+	color: #fff;
+}
+
+h1 {
+	margin: 0;
+}
+
+.top_menu {
+	background-color: #212121;
+	padding: 30px 0;
+	height: auto;
+}
+
+.header_logo a {
+	display: block;
+	width: 295px;
+	height: 90px;
+}
+
+.header_logo .logo{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/nncube_logo_ext.png);
+}
+
+.buttons  a {
+	display: inline-block;
+	width: 230px; 
+	background-color: #D2551F;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+	font-size: 18px;
+	margin-right: 40px;
+}
+
+.buttons a:hover, .buttons a:focus, .buttons a:active {
+	color: #fff;
+	text-decoration: none;
+}
+
+.buttons a:hover {
+	background-color: #E57B4D;
+}
+
+//Сброс стилей bootstrap
+
+.main_menu > .container-fluid {
+	padding: 0;
+}
+
+.navbar {
+	margin-bottom: 0;
+	min-height: 100%;
+	margin-top: 30px;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.navbar-collapse {
+	padding: 0;
+	background-color: #212121;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border: none;
+}
+
+.navbar-nav>li>a {
+	padding: 0;
+	margin-right: 70px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #B3B3B3;
+}
+
+.navbar-nav>li:nth-child(4)>a{
+	margin: 0;
+}
+
+.navbar-toggle {
+	border: none;
+}
+
+.navbar-toggle .icon-bar {
+	width: 30px;
+	height: 4px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+	margin-top: 7px;
+}
+
+
+.head_slider {
+	width: 100%;
+}
+
+.owl-carousel {
+	height: 100%;
+}
+
+
+.owl-item .slider_item {
+	background-image: url(../img/6286original_299702_dyagomydsd7pz5m7uxfxkd5qw.jpg);
+	background-repeat: no-repeat;
+	height: 800px;
+	width: 100%;
+	background-size: cover;
+	text-align: center;
+	padding-top: 200px;
+	font-size: 54px;
+	font-weight: bold;
+	position: relative;
+}
+
+.slider_item h1 {
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 54px;
+}
+
+.slider_desr {
+	background-color: rgba(0, 0, 0, 0.3);
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+
+
+.owl-item:nth-child(2) .slider_item{
+	background-image: url(../img/51614.jpg);
+}
+
+.owl-item:nth-child(3) .slider_item{
+	background-image: url(../img/modern-mansion-living-room-with-tv-for-amazing-homeridae-interior-living-room-modern-living-room-13.jpg);
+}
+
+.owl-dots {
+	position: absolute;
+	top: 80%;
+	width: 100%;
+	left: 0;
+	margin: 0;
+}
+
+section.question {
+	padding: 70px 0;
+	background-color: #212121;
+	text-align: justify;
+  text-align-last: center;
+}
+
+section.question p{
+	margin: 0 70px;
+	font-size: 21px;
+	line-height: 40px;
+}
+
+.services {
+	padding: 60px 0;
+	text-align: center;
+	background-color: #E57B4D;
+	padding-bottom: 130px;
+}
+
+.services_row {
+	text-align: center;
+}
+
+.services h2 {
+	margin-bottom: 70px;
+	font-size: 48px;
+}
+
+.services_item span{
+	font-size: 18px;
+}
+
+
+
+.services_row  img, .service-slider_item img{
+	width: 133px;
+	margin-bottom: 50px;
+}
+
+.owl-carousel .owl-item .service-slider_item img {
+	height: 80px;
+	width: 85px;
+	margin: 0 auto;
+}
+
+.service-slider_item {
+	text-align: center;
+}
+
+.services.small .owl-dots {
+	position: relative;
+	top: 0;
+	width: 100%;
+	left: 0;
+	margin: 0;
+}
+
+.services.small {
+	display: none;
+}
+
+.about {
+	background-color: #212121;
+}
+
+.about .container {
+	width: auto;
+	max-width: 1980px
+}
+
+.about img {
+	height: 800px;
+	width: 760px;
+}
+
+.about .text{
+	padding-top: 70px;
+	padding-left: 70px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.about .text h2{
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+.about .text p {
+	line-height: 24px;
+	text-align: justify;
+  text-align-last: center;
+}
+
+section.news {
+	background-image: url(../img/news-ng.jpg);
+	background-repeat: no-repeat;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding-top: 80px;
+	padding-bottom: 70px;
+	background-size: cover;
+}
+
+section.news h2 {
+	margin: 0;
+	margin-bottom: 65px;
+	display: block;
+	text-align: center;
+	font-size: 48px;	
+}
+
+section.news ul {
+	lyst-style: none;
+	margin: 0;
+}
+
+section.news li {
+	display: block;
+	margin-bottom: 40px;
+}
+
+section.news li a {
+	color: #fff;
+	font-size: 28px;
+}
+
+section.news li:nth-child(4) {
+	margin: 0;
+}
+
+.section_desc {
+	padding: 20px 0;
+	background-color: #E57B4D;
+	text-align: center;
+	line-height: 44px;
+	font-size: 12px;
+	display: none;
+}
+
+footer {
+	background-color: #212121;
+	padding: 30px 0;
+}
+
+footer .container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.footer_info {
+	line-height: 28px;
+	font-size: 18px;
+}
+
+.footer_logo a {
+	display: block;
+	width: 205px;
+	height: 62px;
+}
+
+.footer_logo .logo{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/logo_footer.png);
+}
+
+.footer_link ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.footer_info .small {
+	display: none;
+}
+
+.footer_link li {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	float: left;
+	margin-right: 60px;
+}
+
+.footer_link li:nth-child(3) {
+	margin: 0;
+}
+
+.copyright {
+	text-align: center;
+	display: none;
+	margin-top: 20px;
+}
