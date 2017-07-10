@@ -38,7 +38,7 @@
 			<div class="container">
 				<div class="top-line">
 
-					<div class="logo"><a href="index.html"></a></div>
+					<div class="logo"><a href="index.html"><img src="img/logo.png"></a></div>
 					<div class="top-descr">Сеть магазинов одежды в Москве <br>
 						для женщин у которых все только начинается
 					</div>
@@ -148,21 +148,23 @@
 					на БЕСПЛАТНУЮ очную консультацию <br>
 					к нашим стилистам!</p>
 					<div class="form">
-						<form>
+						<form action="gratitude.html" id="myform">
 								<span>Ваше имя</span>
 								<label>
-									<input type="text" name="username">
+									<input type="text" name="username" required>
 								</label>
 								<span>Номер телефона</span>
 								<label>
-									<input type="text" name="phone" id="phone">
+									<input type="text" name="phone" id="phone" required>
 								</label>
 								<span>e-mail</span>
 								<label>
-									<input type="text" name="mail">
+									<input type="text" name="mail" required>
+								</label>
+								<label>
+									<input type="submit" value="записаться к стилисту" class="button form-btn">
 								</label>
 						</form>
-						<a href="gratitude.html" class="button form-btn" id="btn-form">записаться к стилисту</a>
 					</div>
 				</div>
 			</div>
