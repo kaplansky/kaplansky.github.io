@@ -47,7 +47,7 @@
 					<div class="hidden">
 							<div class="forms-composition" id="work_1">
 									<p class = "subtitle">Заказать обратный звонок</p>
-										<div class="form">
+										<div class="form" >
 											<form action="gratitude.html" id="form">
 												<!-- END Hidden Required Fields -->
 												<span>Ваше имя</span>
@@ -187,13 +187,14 @@
 	
 	<link rel="stylesheet" href="css/main.min.css">
 	<script src="js/scripts.min.js"></script>
-	<script type="text/javascript">
+
+		<script type="text/javascript">
 	$(document).ready(function() {
 		$("#form").submit(function() {
 			var form_data = $(this).serialize();
 			$.ajax({
 				type: "POST",
-				url: "send.php",
+				url: "mail.php",
 				data: form_data,
 				success: function() {
             alert("Ваше сообщение отпрвлено!");
